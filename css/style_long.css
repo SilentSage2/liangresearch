@@ -71,7 +71,7 @@ img {border-radius: 3px;}
   margin-left:10px;
   margin-right:10px;    
   border:0px dashed #FFFFFF;  
-  overflow: hidden;
+  overflow: scroll;
 }
 
 #center_full {
