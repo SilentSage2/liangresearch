@@ -1,4 +1,4 @@
-//©Xara Ltd
+//ï¿½Xara Ltd
 var clicked="";
 var gtype=".gif";
 var selstate="_over";
@@ -14,7 +14,7 @@ document.write("<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\"><tr>");
 tr(false);
 writeButton(loc,"index.html","img/left_b1",140,30,"HOME","",0);
 writeButton(loc,"people.html","img/left_b2",140,30,"PEOPLE","",0);
-writeButton(loc,"research.html","img/left_b3",140,30,"RESEARCH","",0);
+writeButton(loc,"index.html","img/left_b3",140,30,"RESEARCH","",0);
 writeButton(loc,"publications_award.html","img/left_b4",140,30,"PUBLICATION","",0);
 writeButton(loc,"software.html","img/left_b5",140,30,"SOFTWARE","",0);
 writeButton(loc,"links.html","img/left_b6",140,30,"LINKS","",0);
