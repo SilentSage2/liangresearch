@@ -1,6 +1,6 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
-<script src="jquery-3.2.1.min.js"></script>
+<script src="./jquery-3.2.1.min.js"></script>
 <head>
 <title>Zhi-Pei Liang's Group</title>
 <link href='css/style_long.css' type='text/css' rel='stylesheet' />
@@ -33,6 +33,16 @@
       </div>
     </div>
     <script>
+
+      function scrollLis(){
+          var toTop = offs.top-$(window).scrollTop();
+          if(toTop==0||toTop<0){
+          if(!$('#left_side').hasClass('ab'))$('#left_side').addClass('ab');
+          }
+          else{
+          $('#left_side').removeClass('ab');
+          }
+      }
       var offs=$('#left_side').offset();
       $(window).scroll(function(){scrollLis();});
     </script>
