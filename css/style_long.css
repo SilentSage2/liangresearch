@@ -322,7 +322,7 @@ margin-top:0px;
   clear:both;
   border: 0px dashed #EC8E07;  
   background: #FFFECC;
-  position: sticky;
+  position: fixed;
 }
 
 #center_full_link {
