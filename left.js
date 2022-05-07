@@ -156,3 +156,12 @@ function isCurrentFile(str){
     return true;
 }
 
+function scrollLis(){
+    var toTop = offs.top-$(window).scrollTop();
+    if(toTop==0||toTop<0){
+     if(!$('#left_side').hasClass('ab'))$('#left_side').addClass('ab');
+    }
+    else{
+     $('#left_side').removeClass('ab');
+    }
+}
