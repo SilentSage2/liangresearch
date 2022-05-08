@@ -60,13 +60,13 @@ img {border-radius: 3px;}
   height: 68px;
   background: #FFFECC url('../img/header11.jpg') left no-repeat; 
   clear: both;
-  position:fixed;
+  position: absolute;
 }
 
 #menu_bar {
   height:20px;
   background: #FFFFFF url('../img/ece_beckman.gif') bottom left no-repeat;
-  position:fixed;
+  position: absolute;
 }
 
 #content_wrapper {
