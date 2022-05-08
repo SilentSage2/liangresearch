@@ -55,7 +55,7 @@ img {border-radius: 3px;}
 
 
 #page_header {
-  left: 450px;
+  margin: 0 auto;
   width: 900px;
   height: 68px;
   border: 1px solid #000000;
