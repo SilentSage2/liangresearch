@@ -55,8 +55,8 @@ img {border-radius: 3px;}
 
 
 #page_header {
+  left: 450px;
   width: 900px;
-  margin: 10px auto 10px auto;
   height: 68px;
   border: 1px solid #000000;
   background: #FFFECC url('../img/header11.jpg') left no-repeat; 
@@ -65,8 +65,8 @@ img {border-radius: 3px;}
 }
 
 #menu_bar {
+  top:68px;
   width: 900px;
-  margin: 10px auto 10px auto;
   height:20px;
   background: #FFFFFF url('../img/ece_beckman.gif') bottom left no-repeat;
   position: fixed;
@@ -76,7 +76,8 @@ img {border-radius: 3px;}
   margin-top:10px;
   margin-bottom:10px;
   margin-left:10px;
-  margin-right:10px;    
+  margin-right:10px; 
+  top:90px;   
   border:0px dashed #FFFFFF;  
   overflow: hidden;
 }
@@ -101,7 +102,7 @@ font-size: 100%;
 #center_full h3 {
   margin-top:5px;
   margin-bottom:5px;
-  text-align: center
+  text-align: center;
   border: 1px;
   font-family: times, arial, sans-serif;
   font-size: 100%;
