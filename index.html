@@ -10,10 +10,10 @@
 
 <div id='page_wrapper'>
 
-  <div id='page_header'>
+  <div id='page_header' position="fixed">
   </div>
   
-  <div id='menu_bar'>
+  <div id='menu_bar' >
   </div>
 
 
@@ -31,21 +31,22 @@
           </tr>
         </table>
       </div>
-    </div>
-    <script type="text/javascript">
+      <!-- <script type="text/javascript">
 
-      function scrollLis(){
-          var toTop = offs.top-$(window).scrollTop();
-          if(toTop==0||toTop<0){
-          if(!$('#left_side').hasClass('ab'))$('#left_side').addClass('ab');
-          }
-          else{
-          $('#left_side').removeClass('ab');
-          }
-      }
-      var offs=$('#left_side').offset();
-      $(window).scroll(function(){scrollLis();});
-    </script>
+        function scrollLis(){
+            var toTop = offs.top-$(window).scrollTop();
+            if(toTop==0||toTop<0){
+            if(!$('#left_side').hasClass('ab'))$('#left_side').addClass('ab');
+            }
+            else{
+            $('#left_side').removeClass('ab');
+            }
+        }
+        var offs=$('#left_side').offset();
+        $(window).scroll(function(){scrollLis();});
+      </script> -->
+  
+    </div>
 
     <div id='center_full_research'>
       <table>

@@ -71,7 +71,7 @@ img {border-radius: 3px;}
   margin-left:10px;
   margin-right:10px;    
   border:0px dashed #FFFFFF;  
-  overflow: scroll;
+  overflow: hidden;
 }
 
 #center_full {
@@ -323,6 +323,7 @@ margin-top:0px;
   clear:both;
   border: 0px dashed #EC8E07;  
   background: #FFFECC;
+  position:fixed;
 }
 
 #center_full_link {
